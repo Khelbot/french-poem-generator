@@ -8,37 +8,42 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI French Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem here."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="poem-output">
-        La tombe dit à la rose
-        <br />
-        Des pleurs dont l'aube t'arrose
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="http://github.com/Khelbot" target="_blank">Khelsea Al-Arefi</a>
-      and is
-      <a href="http://github.com/Khelbot/french-poem-generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://ai-french-poem-generator-ka.netlify.app/">Netlify</a>.
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem here."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div id="poem-output" class="poem">
+          La tombe dit à la rose
+          <br />
+          Des pleurs dont l'aube t'arrose
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="http://github.com/Khelbot" target="_blank">Khelsea Al-Arefi</a>
+        and is
+        <a
+          href="http://github.com/Khelbot/french-poem-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://ai-french-poem-generator-ka.netlify.app/">Netlify</a>.
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
